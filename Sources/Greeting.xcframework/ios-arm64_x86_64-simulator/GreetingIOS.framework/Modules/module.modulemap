@@ -1,0 +1,11 @@
+framework module GreetingIOS {
+  umbrella header "GreetingIOS.h"
+
+  export *
+  module * { export * }
+}
+
+module GreetingIOS.Swift {
+    header "GreetingIOS-Swift.h"
+    requires objc
+}
